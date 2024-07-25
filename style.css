@@ -1,0 +1,14 @@
+header{
+        background-image: url(assets/fondo-2.jpeg);
+        padding: 100px;
+        background-repeat: no-repeat;
+        background-position: center ;
+        background-size: cover;
+        background-attachment: fixed ;
+        color:beige
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
