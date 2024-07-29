@@ -14,29 +14,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Lau Arrona</a>
+            <!-- el conteiner-fluid pone en las esquinas el contenido -->
+            <a class="navbar-brand text-light" href="#">Lau Arrona</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <!-- Recuerda li es un elemento de la lista -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Yo</a>
+                        <a class="nav-link active text-light" href="#presentacion" aria-current="page" href="#">Yo</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-light" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Habilidades</a>
+                        <a class="nav-link text-light" href="#proyecto">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link disabled text-light" href="#testimonios" aria-disabled="true">Testimonios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Contactos</a>
+                        <a class="nav-link disabled text-light" href="#contactos" aria-disabled="true">Contactos</a>
                     </li>
                 </ul>
             </div>
@@ -44,31 +46,28 @@
     </nav>
     <!-- cabecera de mi pagina -->
     <header>
-<div>
-                <h1 class="display-4 fw-bold ">¡Bienvenidos!
+        <section id="presentacion" class="px-4 pt-5 my-5 text-center border-bottom">
+            <div>
+                <h1 class="display-4 fw-bold" id="presentacion">¡Bienvenidos!
                     Soy Laura Arrona</h1>
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4"> Estudiante de Ingeniería Biomédica en la Universidad de Guanajuato. Apasionada
-                        por
-                        las ciencias biológicas y la programación, fusiono ambos campos para innovar en salud. Mi
+                        por las ciencias biológicas y la programación, fusiono ambos campos para innovar en salud. Mi
                         formación
                         abarca anatomía, fisiología, bioquímica y programación en Python, LaTeX, HTML y JavaScript.
-                        Aquí, comparto mis proyectos y
-                        experiencias. ¡Gracias por visitar!</p>
+                        Aquí, comparto mis proyectos y experiencias. ¡Gracias por visitar!</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                        <button type="button" class="btn btn-outline-danger btn-lg px-4 gap-3">Contáctame</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                        <button type="button" class="btn btn-outline-danger btn-lg px-4 g">Contáctame</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Correo</button>
                     </div>
                 </div>
             </div>
 
+        </section>
+
     </header>
 
     <main>
-
-        <section id="presentacion" class="px-4 pt-5 my-5 text-center border-bottom">
-            
-        </section>
 
         <section id="habilidades" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Habilidades</h2>
@@ -126,10 +125,10 @@
                 </div>
             </div>
         </section>
-        <section id="proyectos" class="container px-4 py-5">
+        <section id="proyecto" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Custom cards</h2>
 
-            <section id="Proyectos" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <section id="testimonios" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('unsplash-photo-1.jpg');">
@@ -304,8 +303,6 @@
         </section>
 
     </footer>
-
-
 
 </body>
 
