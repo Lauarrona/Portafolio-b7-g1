@@ -12,3 +12,23 @@ h1{
     color:rgb(255, 255, 255);
     text-align: center;
 }
+
+#habilidades{
+    text-align: justify;
+}
+
+.proyecto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-uno{
+    background-image: url(assets/proyecto-uno.png);
+    color: rgb(62, 62, 171);
+}
+
+#proyecto-dos{
+    background-image: url(assets/proyect-dos.png);
+    color: rgb(201, 93, 93);
+}
