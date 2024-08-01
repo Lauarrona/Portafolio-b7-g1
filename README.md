@@ -10,7 +10,7 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 ![Presentacion](assets/perfil.png)
 ![Habilidades](assets/habilidades.png)
 ![Proyectos](assets/proyectos.png)
-![Footer](assets/foo)
+![Footer](assets/footer.png)
 
 ## Tecnologías
 * HTML
